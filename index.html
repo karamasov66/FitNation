@@ -12,6 +12,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav>
@@ -29,11 +32,9 @@
     </ul>
   </nav>
   <header>
-      <img src="assets/img/Header-femme-boxe-gris.jpg" alt="femme-qui-boxe" width="100px" height="100px" >
-      <p>Prenez le contrôle de 
-        votre bien-être et 
-        transformez votre vie</p>
-      <button>Rejoins-nous à FitNation  !</button>
+        <p id="motivation">Prenez le contrôle de <br>votre bien-être et <br>transformez votre vie</p>
+        <button type="button" id="join">Rejoins-nous à FitNation  !</button>
+    
   </header>
   <main>
     <h2>NOS SERVICES</h2>
@@ -77,9 +78,16 @@
     </section>
     <section id="coaching">
         <h3>COACHING</h3>
-        <figure class="coach"><img src="assets/img/coach-mick.jpg" alt="coach-mick"></figure>
-        <figure class="coach"><img src="assets/img/coach-clara.jpg" alt="coach-clara"></figure>
-        <figure class="coach"><img src="assets/img/coach-yves.jpg" alt="coach-yves"></figure>
+        <div>
+            <figure class="coach"><img src="assets/img/coach-mick.jpg" alt="coach-mick"><figcaption>Mick</figcaption></figure>
+            <figure class="coach"><img src="assets/img/coach-clara.jpg" alt="coach-clara"><figcaption>Clara </figcaption></figure>
+            <figure class="coach"><img src="assets/img/coach-yves.jpg" alt="coach-yves"><figcaption>Yves </figcaption></figure>
+        </div>
+        <div id="price">
+            <h4>TARIF 45 EUROS</h4>
+            <h4>TARIF 50 EUROS</h4>
+            <h4>TARIF 60 EUROS</h4>
+        </div>
     </section>
     <section id="nutrition">
         <h3>NUTRITION</h3>

@@ -3,6 +3,7 @@
 	--second-color: white;
 	--third-color: #e84545;
 	--fourth-color: #d7d7d7;
+	--header-text-color: #d7d7d7;
 }
 
 body {
@@ -68,3 +69,105 @@ main h2 {
 	color: var(--second-color);
 	margin: auto;
 }
+header
+{
+	
+	height: 500px;
+	background-image: url('/images/Header-femme-boxe-gris.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+	display: flex;
+	flex-direction: column; 
+	justify-content: space-between;
+	align-items: start;
+	padding: 20px;
+}
+p#motivation
+{
+	font-family: "Anton", sans-serif;
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 67.74px;
+	text-align: left;
+	color:var(--header-text-color);
+}
+button#join
+{
+	background: rgba(232, 69, 69, 1);
+	font-family: "Anton", sans-serif;
+	color: var(--header-text-color);
+	border-radius: 20px;
+	width: 486px;
+	height: 88px;
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 67.74px;
+	text-align: left;
+}
+section#coaching h3
+{
+	font-family: "Oswald", sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 44.46px;
+	letter-spacing: 0.3em;
+	text-align: left;
+
+}
+section#coaching h3
+{
+	display: flex;
+	flex-direction: row;
+}
+section#coaching div
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+section#coaching div figure
+{
+	width: 254px;
+	height: 256px;
+	border-radius: 20px;
+	background: rgba(232, 69, 69, 1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+section#coaching div figure img
+{
+	width: 168px;
+	height: 172px;
+	border-radius: 200px;
+
+
+}
+section#coaching div figure figcaption
+{
+	font-family: "Inter", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24.2px;
+	text-align: center;
+	color:rgba(255, 255, 255, 1);
+}
+section#coaching div h4
+{
+	color: rgba(255, 255, 255, 1) ;
+	font-family: "Inter", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	width: 172px;
+	height: 24px;
+	border-radius: 20px;
+	background: rgba(232, 69, 69, 1);
+	padding-top: 5px;
+	margin-top: 40px;
+}
+
+
