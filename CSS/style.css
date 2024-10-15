@@ -78,12 +78,11 @@ h3 {
 	color: var(--second-color);
 	margin-top: 30px;
 }
-<<<<<<< HEAD
 header
 {
 	
 	height: 500px;
-	background-image: url('/images/Header-femme-boxe-gris.jpg');
+	background-image: url('../assets/img/Header-femme-boxe-gris.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -181,7 +180,6 @@ section#coaching div h4
 }
 
 
-=======
 
 .prix {
 	color: var(--third-color);
@@ -196,4 +194,3 @@ section#coaching div h4
 	font-weight: 800;
 }
 /*Concerne la partie abonnement (fin a partir d'ici)*/
->>>>>>> f6b2a011aa27ef7c5a98145de0093a67ca4e3150
