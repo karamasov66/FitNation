@@ -1,7 +1,70 @@
 :root {
-    --primary-color:black;
-    --second-color:white;
-    --third-color:#E84545;
-    --fourth-color:#D7D7D7;
+	--primary-color: black;
+	--second-color: white;
+	--third-color: #e84545;
+	--fourth-color: #d7d7d7;
+}
 
-  }
+body {
+	background-color: var(--fourth-color);
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--primary-color);
+}
+
+nav .middle {
+	display: flex;
+	gap: 100px;
+	font-family: "Roboto", sans-serif;
+}
+
+nav > ul li {
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+
+.right-side li button {
+	background-color: var(--third-color);
+	border-radius: 5px;
+	padding: 10px;
+	font-family: "Roboto", sans-serif;
+}
+
+.right-side li {
+	margin: 20px;
+	font-size: 10px;
+	font-family: "Roboto", sans-serif;
+}
+
+main h2 {
+	text-align: center;
+	border: 2px solid var(--third-color);
+	border-radius: 10px;
+	padding: 10px;
+	background-color: var(--third-color);
+	max-width: 125px;
+	font-family: "Bebas Neue", sans-serif;
+	color: var(--second-color);
+	margin: auto;
+}
+
+#abonnements {
+	display: flex;
+}
+
+#card {
+	text-align: center;
+	border: 2px solid var(--primary-color);
+	border-radius: 10px;
+	padding: 10px;
+	background-color: var(--primary-color);
+	max-width: 125px;
+	font-family: "Bebas Neue", sans-serif;
+	color: var(--second-color);
+	margin: auto;
+}
