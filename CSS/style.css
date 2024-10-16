@@ -55,6 +55,10 @@ main h2 {
 	margin: auto;
 }
 
+.contain-element-gym {
+	margin-left: 30px;
+}
+
 #container-gym {
 	position: relative;
 	width: 626px;
@@ -88,6 +92,19 @@ main h2 {
 	opacity: 1;
 }
 
+.paragraphe-gym {
+	font-size: 15px;
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 50px;
+}
+
+.fitnation {
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 50px;
+}
+
 h3 {
 	font-family: "Oswald", sans-serif;
 	font-size: 25px;
@@ -95,7 +112,7 @@ h3 {
 	line-height: 44.46px;
 	letter-spacing: 0.3em;
 	text-align: left;
-	margin-top: 250px;
+	margin-top: 150px;
 }
 
 .card-wrapper {
