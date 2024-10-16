@@ -55,11 +55,49 @@ main h2 {
 	margin: auto;
 }
 
-h3 {
-	font-family: "Oswald", sans-serif;
+#container-gym {
+	position: relative;
+	width: 626px;
+	margin: auto;
+	display: flex;
+	align-items: center;
 }
 
-/*Concerne la partie abonnement*/
+#precedent,
+#suivant {
+	cursor: pointer;
+	transition: opacity 0.3s ease;
+	opacity: 0;
+	position: absolute;
+	font-size: 100px;
+	color: rgba(220, 220, 220, 0.8);
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+}
+
+#precedent {
+	left: 0;
+}
+
+#suivant {
+	right: 0;
+}
+
+#container-gym:hover #precedent,
+#container-gym:hover #suivant {
+	opacity: 1;
+}
+
+h3 {
+	font-family: "Oswald", sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 44.46px;
+	letter-spacing: 0.3em;
+	text-align: left;
+	margin-top: 250px;
+}
+
 .card-wrapper {
 	display: flex;
 	justify-content: space-around;
@@ -78,31 +116,27 @@ h3 {
 	color: var(--second-color);
 	margin-top: 30px;
 }
-header
-{
-	
+header {
 	height: 500px;
-	background-image: url('../assets/img/Header-femme-boxe-gris.jpg');
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center; 
+	background-image: url("../assets/img/Header-femme-boxe-gris.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	display: flex;
-	flex-direction: column; 
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: start;
 	padding: 20px;
 }
-p#motivation
-{
+p#motivation {
 	font-family: "Anton", sans-serif;
 	font-size: 45px;
 	font-weight: 400;
 	line-height: 67.74px;
 	text-align: left;
-	color:var(--header-text-color);
+	color: var(--header-text-color);
 }
-button#join
-{
+button#join {
 	background: rgba(232, 69, 69, 1);
 	font-family: "Anton", sans-serif;
 	color: var(--header-text-color);
@@ -114,30 +148,18 @@ button#join
 	line-height: 67.74px;
 	text-align: left;
 }
-section#coaching h3
-{
-	font-family: "Oswald", sans-serif;
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 44.46px;
-	letter-spacing: 0.3em;
-	text-align: left;
 
-}
-section#coaching h3
-{
+section#coaching h3 {
 	display: flex;
 	flex-direction: row;
 }
-section#coaching div
-{
+section#coaching div {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
 }
-section#coaching div figure
-{
+section#coaching div figure {
 	width: 254px;
 	height: 256px;
 	border-radius: 20px;
@@ -147,26 +169,21 @@ section#coaching div figure
 	align-items: center;
 	justify-content: space-around;
 }
-section#coaching div figure img
-{
+section#coaching div figure img {
 	width: 168px;
 	height: 172px;
 	border-radius: 200px;
-
-
 }
-section#coaching div figure figcaption
-{
+section#coaching div figure figcaption {
 	font-family: "Inter", sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 24.2px;
 	text-align: center;
-	color:rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
 }
-section#coaching div h4
-{
-	color: rgba(255, 255, 255, 1) ;
+section#coaching div h4 {
+	color: rgba(255, 255, 255, 1);
 	font-family: "Inter", sans-serif;
 	font-size: 20px;
 	font-weight: 400;
@@ -178,8 +195,6 @@ section#coaching div h4
 	padding-top: 5px;
 	margin-top: 40px;
 }
-
-
 
 .prix {
 	color: var(--third-color);
@@ -193,4 +208,42 @@ section#coaching div h4
 	font-family: "Roboto", sans-serif;
 	font-weight: 800;
 }
-/*Concerne la partie abonnement (fin a partir d'ici)*/
+
+.nutrition-text-wrapper {
+	margin-left: 200px;
+	margin-top: 25px;
+}
+
+.img-nutrition {
+	width: 300px;
+	height: 200px;
+	border-radius: 5px;
+}
+
+.imgandbutton-nutrition-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+	gap: 30px;
+}
+
+.prochainement {
+	text-align: center;
+	background-color: var(--third-color);
+	border-radius: 5px;
+	padding: 10px;
+	font-family: "Roboto", sans-serif;
+	border: solid 1px var(--third-color);
+}
+
+.intro-nutrition {
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.text-nutrition {
+	font-family: "Roboto", sans-serif;
+}
