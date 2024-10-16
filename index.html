@@ -16,6 +16,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <nav>
@@ -38,7 +40,7 @@
     
   </header>
   <main>
-    <h2>NOS SERVICES</h2>
+    <h2 class="marginservices">NOS SERVICES</h2>
     <section id="gym">
         <h3>LA SALLE</h3>
         <h5>FitNation</h5>  Salle de Sport Novatrice
@@ -57,64 +59,73 @@
     <section id="abonnements">
         <h3>ABONNEMENTS</h3>
         <div class="card-wrapper">
-        <article id="card">
-            <p class="name-card">Essentiel </p>
-            <br>
-            <ul>
-                <li class="prix">Soit 17,99€/4 semaines</li>
-                <br>
-                <li>🗺  Accès réseau illimité</li>
-                <br>
-                <li>🚰 Fontaine à boissons fruitées</li>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </ul>
-            <button class="go">LET'S GO</button>
-        </article>
-        <article id="card">
+            <article id="card">
+                <p class="name-card">Essentiel </p>
+                        <br>
+                <p class="prix">Soit 17,99€/4 semaines </p>
+                <p>
+                        <br>
+                        🗺  Accès réseau illimité
+                        <br>
+                        <br>
+                        🚰 Fontaine à boissons fruitées
+                </p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                <button type="button" class="go">LET'S GO</button>
+            </article>
+            <article id="card">
                 <p class="name-card">Original</p>
-                 <br>
-                <ul>
-                <li class="prix">Soit 24,99€/4 semaines</li>
-                <br>
-                <li>🗺  Accès réseau illimité</li>
-                <br>
-                <li>👨‍👦Une carte d'abonnement partageable avec un membre du domicile</li>
-                <br>
-                <li>🚰 Fontaine à boissons fruitées</li>
-                <br>
-                <br>
-                <br>
-                <br>
-                </ul> 
-            <button class="go">LET'S GO</button>
-        </article>
-        <article id="card">
-           
-            <p class="name-card">Ultra</p>
-            <br>
-            <ul>
-            <li class="prix">Soit 34,99€/4 semaines</li>
-            <br>
-            <li>  🗺  Accès réseau illimité</li>
-            <br>
-            <li> 👨‍👦Une carte d'abonnement partageable avec un membre du domicile</li>
-            <br>
-            <li> 🚰 Fontaine à boissons fruitées</li>
-            <br>
-            <li>🔄 Plateforme vibrante oscillante</li>
-            <br>
-           </ul>
-            <button class="go">LET'S GO</button>
-        
-        </article>
-        </div>
+                    <br>
+                <p class="prix">Soit 24,99€/4 semaines</p>
+                <p>
+                    <br>
+                    🗺  Accès réseau illimité
+                    <br>
+                    <br>
+                    👨‍👦Une carte d'abonnement partageable avec un membre du domicile
+                    <br>
+                    <br>
+                    🚰 Fontaine à boissons fruitées
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </p>   
+                <button type="button"  class="go">LET'S GO</button>
+            </article>
+            <article id="card">
+                <p class="name-card">Ultra</p>
+                    <br>
+                <p class="prix">Soit 34,99€/4 semaines</p>
+                <p>
+                    <br>
+                    🗺  Accès réseau illimité
+                    <br>
+                    <br>
+                    👨‍👦Une carte d'abonnement partageable avec un membre du domicile
+                    <br>
+                    <br>
+                    🚰 Fontaine à boissons fruitées
+                    <br>
+                    <br>
+                    🔄 Plateforme vibrante oscillante
+                    <br>
+                    <br>
+                    <br>
+                </p>   
+                <button type="button" class="go">LET'S GO</button>
+            </article>
+    </div>
     </section>
     <section id="coaching">
         <h3>COACHING</h3>
@@ -154,42 +165,47 @@
             
         </article>
     </section>
-    <section>
+    <section id="horaires">
       <h3>HORAIRES</h3>
-      <div>
-        <ul>
-            <li>Lundi  6h-23H</li>
-            <li>Mardi 6h-23H</li>
-            <li>Mercredi 6h-23H</li>
-            <li>Jeudi 6h-23H</li>
-            <li>Vendredi 6h-23H</li>
-            <li>Saemdi 9H-17H</li>
-            <li>Dimanche 9H-17H</li>
-        </ul>
-      </div>
-      <div>
-          <div>
-              <img src="assets/img/adresses maps.png" alt="adresse" width="200px" height="200px">
+      <div id="totalcontent">
+        <div id="horaires">
+            <ul>
+                <li><p class="days">Lundi</p> <p class="hours">6H-23H</p></li>
+                <li><p class="days">Mardi</p> <p class="hours">6H-23H</p></li>
+                <li><p class="days">Mercredi</p> <p class="hours">6H-23H</p></li>
+                <li><p class="days">Jeudi</p> <p class="hours">6H-23H</p></li>
+                <li><p class="days">Vendredi</p> <p class="hours">6H-23H</p></li>
+                <li><p class="days">Samedi</p> <p class="hours">9H-17H</p></li>
+                <li><p class="days">Dimanche</p> <p class="hours">9H-17H</p></li>
+            </ul>
           </div>
-          <div>
-              <p>Adresse 📍:
-                44,Rue alphonse Penaud 
-               Paris 75020</p>
+          <div id="adress-text">
+              <div>
+                  <img id="adress" src="assets/img/adresses maps.png" alt="adresse" >
+              </div>
+              <div>
+                  <p>Adresse 📍: <br>
+                    <br>
+                    44, rue Alphonse Penaud <br>
+                    <br>
+                   Paris 75020</p>
+              </div>
+    
           </div>
-
       </div>
+      
     </section>
   </main>
   <footer>
-    <div>
-        <img src="assets/img/Instagram.webp" alt="Instagram" width="50px" height="50pxpx">
-        <img src="assets/img/Twitter.webp" alt="Twitter" width="50px" height="50px">
-        <img src="assets/img/facebook.webp" alt="facebook" width="50px" height="50pxpx">
-        <p>@FitNation</p>
-        <p>@FitNation</p>
-        <p>FitNation</p>
+    <div id="socialmedia" class="margin">
+        <img src="assets/img/Instagram.webp" alt="Instagram" width="50px" height="50pxpx" class="socialimages1">
+        <img src="assets/img/Twitter.webp" alt="Twitter" width="50px" height="50px" class="socialimages2">
+        <img src="assets/img/facebook.webp" alt="facebook" width="50px" height="50pxpx" class="socialimages3">
+        <p class="socialtags1">@FitNation</p>
+        <p class="socialtags2">@FitNation</p>
+        <p class="socialtags3">FitNation</p>
     </div>
-    <div>
+    <div id="list" class="margin">
       <ul>
           <li>Mentions légales </li>
           <li>Politique de confidentialité </li>
