@@ -22,6 +22,12 @@ nav .middle {
 	display: flex;
 	gap: 100px;
 	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	color: white;
+}
+div#menuToggle
+{
+    display: none;
 }
 
 nav > ul li {
@@ -141,8 +147,10 @@ button#join {
 	font-family: "Anton", sans-serif;
 	color: var(--header-text-color);
 	border-radius: 20px;
-	width: 486px;
-	height: 88px;
+	/* width: 486px;
+	height: 88px; */
+	width: auto;
+	height: auto;
 	font-size: 45px;
 	font-weight: 400;
 	line-height: 67.74px;
