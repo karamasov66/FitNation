@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+	nav {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.right-side {
+		text-align-last: center;
+	}
+
+	p#motivation {
+		display: none;
+	}
+
+	nav .middle {
+		gap: 15px;
+	}
+
+	.card-wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	section#coaching div {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	#price > h4 {
+		display: none;
+	}
+
+	#totalcontent {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 40px;
+	}
+}

@@ -128,7 +128,7 @@ h3 {
 #card .name-card {
 	font-size: 25px;
 }
-#card {
+.card {
 	text-align: center;
 	border: 2px solid var(--primary-color);
 	border-radius: 10px;
