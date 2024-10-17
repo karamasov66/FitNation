@@ -4,6 +4,11 @@
 		align-items: center;
 	}
 
+	header
+	{
+		padding-top: 460px;
+	}
+
 	.right-side {
 		text-align-last: center;
 	}
