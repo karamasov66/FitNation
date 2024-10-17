@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,53 +21,32 @@
 
 </head>
 <body>
-    <!-- <nav id="mobilenav">
-        <img src="/assets/img/bouton de menu.jpeg" alt="menu">
-        <ul class="middle"  id="navbar" class="navbar">
-            <li><a href="#" class="middle">SALLE</a></li>
-            <li><a href="" class="middle">ABONNEMENTS</a></li>
-            <li><a href="" class="middle">COACHING</a></li>
-            <li><a href="" class="middle">NUTRITION</a></li>
-            <li><a href="" class="middle">CONTACT</a></li>
-        </ul>
+    <nav id="navbar1">    
         <img src="assets/img/musculation.png" alt="logo FitNation" width="100px" height="100px">
-        <ul class="right-side">
-            <li><button>SE COOONNECTER</button></li>
-            <li>S'INSCRICE</li>
+        <div>
+            <ul class="middle" id="navbar"  class="navbar">
+                <li><a href="#gym" class="middle">SALLE</a></li>
+                <li><a href="#titleabonnements" class="middle">ABONNEMENTS</a></li>
+                <li><a href="#coaching" class="middle">COACHING</a></li>
+                <li><a href="#nutrition" class="middle">NUTRITION</a></li>
+                <li><a href="#info" class="middle">INFORMATIONS</a></li>
             </ul>
-    </nav> -->
-    
-  <nav>
+        </div>
 
-    
-    
-    <img src="assets/img/musculation.png" alt="logo FitNation" width="100px" height="100px">
-    <div>
-        <ul class="middle" id="navbar"  class="navbar">
-            <li><a href="#" class="middle">SALLE</a></li>
-            <li><a href="" class="middle">ABONNEMENTS</a></li>
-            <li><a href="" class="middle">COACHING</a></li>
-            <li><a href="" class="middle">NUTRITION</a></li>
-            <li><a href="" class="middle">CONTACT</a></li>
+        <ul class="right-side">
+            <li><button type="button" id="aggrandirseconnecter" class="aggrandissement">SE CONNECTER</button></li>
+            <li>S'INSCRICE</li>
         </ul>
-    </div>
-
-    <ul class="right-side">
-        <li><button>SE CONNECTER</button></li>
-        <li>S'INSCRICE</li>
-    </ul>
-
-   
-  </nav>
+    </nav>
   <header>
         <p id="motivation">Prenez le contrôle de <br>votre bien-être et <br>transformez votre vie</p>
         <button type="button" id="join">Rejoins-nous à FitNation  !</button>
     
   </header>
   <main>
-    <h2 class="marginservices">NOS SERVICES</h2>
+    <h2 class="marginservices" id="titlegym">NOS SERVICES</h2>
     <section id="gym">
-        <h3>LA SALLE</h3>
+        <h3 >LA SALLE</h3>
         <article class="contain-element-gym">
         <h5 class="fitnation">FitNation</h5>
         <br>
@@ -92,14 +71,14 @@
     </article>
             <div id="container-gym">
                 <img id="slide" src="assets/img/ring-de-boxe.jpg" alt="ring-boxe"  >
-                <div id="precedent"onclick="ChangeSlide(-1)">&lt;</div>
+                <div id="precedent" onclick="ChangeSlide(-1)">&lt;</div>
                 <div id="suivant" onclick="ChangeSlide(1)">&gt;</div>
             </div>
     </section>
     <section id="abonnements">
-        <h3>ABONNEMENTS</h3>
+        <h3 id="titleabonnements">ABONNEMENTS</h3>
         <div class="card-wrapper">
-            <article id="card">
+            <article id="card1"  class="aggrandissement card">
                 <p class="name-card">Essentiel </p>
                         <br>
                 <p class="prix">Soit 17,99€/4 semaines </p>
@@ -121,7 +100,7 @@
                         <br>
                 <button type="button" class="go">LET'S GO</button>
             </article>
-            <article id="card">
+            <article id="card2" class="aggrandissement card">
                 <p class="name-card">Original</p>
                     <br>
                 <p class="prix">Soit 24,99€/4 semaines</p>
@@ -143,7 +122,7 @@
                 </p>   
                 <button type="button"  class="go">LET'S GO</button>
             </article>
-            <article id="card">
+            <article id="card3" class="aggrandissement card">
                 <p class="name-card">Ultra</p>
                     <br>
                 <p class="prix">Soit 34,99€/4 semaines</p>
@@ -170,14 +149,14 @@
     <section id="coaching">
         <h3>COACHING</h3>
         <div>
-            <figure class="coach"><img src="assets/img/coach-mick.jpg" alt="coach-mick"><figcaption>Mick</figcaption></figure>
-            <figure class="coach"><img src="assets/img/coach-clara.jpg" alt="coach-clara"><figcaption>Clara </figcaption></figure>
-            <figure class="coach"><img src="assets/img/coach-yves.jpg" alt="coach-yves"><figcaption>Yves </figcaption></figure>
+            <figure  class="aggrandissementcoachs coach" id="coach1"><img src="assets/img/coach-mick.jpg" alt="coach-mick"><figcaption>Mick</figcaption></figure>
+            <figure  class="aggrandissementcoachs coach" id="coach2"><img src="assets/img/coach-clara.jpg" alt="coach-clara"><figcaption>Clara </figcaption></figure>
+            <figure  class="aggrandissementcoachs coach" id="coach3"><img src="assets/img/coach-yves.jpg" alt="coach-yves"><figcaption>Yves </figcaption></figure>
         </div>
         <div id="price">
-            <h4>TARIF 45 EUROS</h4>
-            <h4>TARIF 50 EUROS</h4>
-            <h4>TARIF 60 EUROS</h4>
+            <h4 id="tarif1" class="fade-in">TARIF 45 EUROS</h4>
+            <h4 id="tarif2">TARIF 50 EUROS</h4>
+            <h4 id="tarif3">TARIF 60 EUROS</h4>
         </div>
     </section>
     <section id="nutrition">
@@ -199,14 +178,14 @@
 <p class="text-nutrition">Une alimentation équilibrée contribue à une meilleure humeur et à une réduction du stress, renforçant la motivation pour le sport.</p>
 </article>
          <article class="imgandbutton-nutrition-wrapper">
-            <button class="prochainement">Bientôt : Découvrez Nos Articles de Recettes</button>
-            <img class="img-nutrition"  src="assets/img/Nutrition.jpg" alt="nutrition">
+            <button type="button" id="nutritionimage" class="prochainement">Bientôt : Découvrez Nos Articles de Recettes</button>
+            <img class="img-nutrition"   src="assets/img/Nutrition.jpg" alt="nutrition">
         </article>
             
-        </article>
+      
     </section>
     <section id="horaires">
-      <h3>HORAIRES</h3>
+      <h3 id="info">INFORMATIONS</h3>
       <div id="totalcontent">
         <div id="horaires">
             <ul>
@@ -252,7 +231,7 @@
           <li>CGV</li>
           <li>Rétractation</li>
           <li>Résiliation</li>
-          <li>Cookies</li>
+          <li>Contact</li>
       </ul>
     </div>
   </footer>
